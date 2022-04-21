@@ -5,3 +5,47 @@ video {
   width: 100%;
   height: auto;
 }
+
+.belchers {
+  background-color: greenyellow;
+}
+
+.belchers img {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.sign {
+  background-color: red;
+}
+
+.sign img {
+  max-width: 56rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bob {
+  width: 4rem;
+  height: auto;
+}
+
+.Linda {
+  width: 4rem;
+  height: auto;
+}
+.Gene {
+  width: 4rem;
+  height: auto;
+}
+
+.Tina {
+  width: 4rem;
+  height: auto;
+}
+/* Desktop Only Styles*/
