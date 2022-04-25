@@ -29,23 +29,60 @@ video {
 .bg-gray {
   background-color: gray;
 }
-
-.bob {
-  width: 4rem;
-  height: auto;
+#louis {
+  width: auto;
+  height: 25rem;
 }
 
-.Linda {
-  width: 4rem;
-  height: auto;
-}
-.Gene {
-  width: 4rem;
-  height: auto;
+#Linda {
+  width: auto;
+  height: 37rem;
 }
 
-.Tina {
-  width: 4rem;
-  height: auto;
+#Tina {
+  width: auto;
+  height: 30rem;
 }
-/* Desktop Only Styles*/
+.characters {
+  display: flex;
+  align-items: baseline;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.box {
+  border: 12px solid rgb(164, 75, 73);
+  width: 10.5rem;
+  height: 13rem;
+  background-color: gray;
+  text-align: center;
+  padding-top: 0.5rem;
+  position: relative;
+  top: -42rem;
+}
+.menu a {
+  color: white;
+  line-height: 2.5rem;
+  font-size: 1.34rem;
+}
+
+.boxy {
+  border: 12px solid rgb(164, 75, 73);
+  width: 10.5rem;
+  height: 13rem;
+  background-color: gray;
+  text-align: center;
+  padding-top: 0.5rem;
+  position: relative;
+}
+
+.rbox {
+  border: 12px solid rgb(164, 75, 73);
+  width: 10.5rem;
+  height: 13rem;
+  background-color: gray;
+  text-align: center;
+  padding-top: 0.5rem;
+  position: relative;
+}
+/* Desktop Only Styles*/ ;

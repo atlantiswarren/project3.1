@@ -11,26 +11,39 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="recipe.html">Recipes</a></li>
-          <li><a href="characters.html">Characters</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
+      <style id="background">
+        body {
+          background-image: url(./img/bobbackground.webp);
+          background-size: cover;
+        }
+      </style>
+      <div class="boxy">
+        <nav>
+          <ul class="menu">
+            <li clas><a href="index.html">Home</a></li>
+            <li><a href="recipe.html">Recipes</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <div class="bob">
-      <img src="./img/Bob.png" alt="" />
-    </div>
-    <div class="Gene">
-      <img src="./img/Gene.png" alt="" />
-    </div>
-    <div class="Linda">
-      <img src="./img/Linda.png" alt="" />
-    </div>
-    <div class="Tina">
-      <img src="./img/Tina.png" alt="" />
+    <div class="characters">
+      <div class="bob">
+        <img src="./img/Bob.png" alt="" />
+      </div>
+      <div class="Linda">
+        <img id="Linda" src="./img/Linda.png" alt="" />
+      </div>
+      <div class="Tina">
+        <img id="Tina" src="./img/Tina.png" alt="" />
+      </div>
+      <div class="Gene">
+        <img src="./img/Gene.png" alt="" />
+      </div>
+      <div class="Louis">
+        <img id="louis" src="./img/Louis.png" alt="" />
+      </div>
     </div>
   </body>
 </html>
