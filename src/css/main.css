@@ -50,7 +50,7 @@ video {
   justify-content: center;
 }
 
-.box {
+div.box {
   border: 12px solid rgb(164, 75, 73);
   width: 10.5rem;
   height: 13rem;
@@ -58,12 +58,22 @@ video {
   text-align: center;
   padding-top: 0.5rem;
   position: relative;
-  top: -42rem;
+  top: -42.25rem;
+  transform: translateX(-100%);
 }
+
+div.box.active {
+  transform: translateX(0);
+}
+
 .menu a {
   color: white;
   line-height: 2.5rem;
   font-size: 1.34rem;
+}
+
+.menu a:hover {
+  color: brown;
 }
 
 .boxy {
@@ -84,5 +94,89 @@ video {
   text-align: center;
   padding-top: 0.5rem;
   position: relative;
+  margin-top: -47rem;
+}
+
+.characters img {
+  filter: grayscale(100%);
+  /* filter: brightness(0) saturate(100%);
+  filter: alpha(opacity=0); */
+  /* filter: alpha (opacity=70);
+  opacity: 0.7; */
+}
+
+.characters img:hover {
+  filter: grayscale(0%);
+  /* filter: alpha(opacity= 100);
+  opacity: 1; */
+}
+
+.button img {
+  width: 3rem;
+}
+
+.burg img {
+  width: 10rem;
+}
+
+button {
+  position: absolute;
+  top: 10%;
+  margin-top: -3rem;
+  margin-left: 74rem;
+}
+
+.carousel {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.slide > img {
+  width: 20rem;
+  height: 22rem;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+  margin-top: 12rem;
+  margin-right: 29rem;
+}
+.slide[data-active] {
+  opacity: 1;
+}
+
+.carousel-button {
+  position: absolute;
+  background: none;
+  border: none;
+  z-index: 2;
+  font-size: 4rem;
+  top: 50%;
+  transform: translate(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+}
+
+.carousel-button.prev {
+  left: -34rem;
+}
+
+.carousel-button.next {
+  right: 23rem;
 }
 /* Desktop Only Styles*/ ;
